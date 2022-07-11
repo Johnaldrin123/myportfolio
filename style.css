@@ -116,7 +116,7 @@ button:hover{
   }
   /* contact section */
   #contact-info{
-    height: 70vh;
+    height: 90vh;
     margin: 0px 200px;
   }
   h3#contact{
@@ -145,5 +145,14 @@ button:hover{
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px 20px;
+  }
+  i{
+    margin-right: 10px;
+  }
+  .fa-facebook, .fa-twitter,.fa-instagram-square{
+    color:#fff;
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
   }
