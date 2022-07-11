@@ -156,3 +156,50 @@ button:hover{
     height: 20px;
     width: 20px;
   }
+/* media queries */
+@media (min-width:481px) and (max-width:767px){
+  .header{
+    width: 100%;
+  }
+  .main-section{
+    display: flex;
+    flex-direction: column;
+  }
+  h1{
+    margin-top: 200px;
+    margin-left: 40px;
+    font-size: 2rem;
+  }
+  .typed-out{
+    margin-left: 40px;
+    text-align: center;
+    font-size: 2rem; 
+  }
+  button{
+    margin-left: 40px; 
+  }
+  #svg-waves{
+    display: none;
+  }
+  #content-img{
+    margin-top: 60px;
+    margin-left:190px;
+  }
+  /* about-me section */
+  #about-me{
+    height: 60vh;
+    width: 100%;
+    margin: 40px 20% 40px 20%;
+  }
+  h3{
+    font-size: 2rem;
+  }
+  /* Skill section */
+  #skill-section{
+    height: 60vh;
+    width: 100%;
+  }
+  .text1{
+    margin-left: 20%;
+  }
+}
